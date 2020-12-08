@@ -1,0 +1,22 @@
+안녕하세요 
+
+git --version // 버전 확인 
+
+git config --global user.name Woosiq92 
+git config --global user.email uiiezl@naver.com 
+
+폴더 생성 -> 폴더 이동 
+
+git clone (깃 허브 주소 - http) 
+
+// 컴퓨터 - 로컬 저장소 // 깃 - 원격 저장소 
+
+//깃 추가 
+폴더 이동 
+git add git_guide.txt 
+git commit -m "Add Text File [git_guide.txt]" 
+git push  // 로컬을 원격 저장소에 동기화 
+
+
+
+
