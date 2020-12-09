@@ -12,8 +12,9 @@ data.sort()
 first = data[n-1] # 가장 큰수 
 second = data[n-2] # 두 번째로 큰수 
 
-count = int(m/(k+1))*k 
-count += m %(k+1)
+# 가장 큰수가 더해지는 횟수 계산
+count = int(m/(k+1))*k # 가장 큰 수가 등장하는 횟수
+count += m %(k+1)  # (K+1) = 반복되는 수열의 길이 (k - 첫번째로 큰수 , 1 - 두번째로 큰수)
 
 result = 0 
 result +=(count) * first # 가장 큰 수 더하기 
