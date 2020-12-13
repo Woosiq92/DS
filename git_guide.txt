@@ -15,6 +15,10 @@ git add git_guide.txt
 git commit -m "Add Text File [git_guide.txt]" 
 git push  // 로컬을 원격 저장소에 동기화 
 
+// 원격 저장소 다운로드 
+git pull origin master 
+
+
 
 
 
