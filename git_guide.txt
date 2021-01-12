@@ -2,8 +2,8 @@
 
 git --version // 버전 확인 
 
-git config --global user.name Woosiq92 
-git config --global user.email uiiezl@naver.com 
+git config --global user.name ID
+git config --global user.email email 
 
 폴더 생성 -> 폴더 이동 -> git clone (깃 허브 주소 - http) 
 
